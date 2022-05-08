@@ -1,0 +1,302 @@
+#news a{
+	text-decoration:none;
+	cursor: pointer;
+	font-size:14px;
+	color:#444444;
+	font-weight: 500;
+	line-height: 1.2;
+}
+#news a:hover{
+	text-decoration:none;
+	color:#c49244;
+}
+#news .fa{
+	color: white;
+}
+.banner{
+	height: 300px;
+	position: relative;
+	top:0;
+	color: white;
+}
+#banner img{
+	height: 300px;
+	object-fit: cover;
+}
+.overlay{
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	z-index: 1;
+}
+.text-box{
+	position: absolute;
+	top:35%;
+	right:0;
+	left:0;
+	width: 100%;
+	z-index: 2;
+}
+.banner-title{
+	font-size:27px;
+	font-family: 'Pattaya';
+}
+.here{
+	font-size:17px;
+}
+.here{
+	font-size:17px;
+}
+.here> b{
+	text-decoration:underline;
+}
+.here a{
+	font-size:17px;
+	color:white;
+}
+.title-small{
+	font-size:16px;
+    color: #c49244;
+    border-left: solid 2px #c49244;
+    margin-left: 10px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.title{
+	align-items: center;
+}
+.mgt-20{
+	margin-top:20px;
+}
+#news{
+	padding:60px 0;
+}
+.news-title{
+	font-size:16px;
+	font-weight: bold;
+	margin:20px 0;
+}
+.newss-title{
+	font-size:12px;
+	font-weight: 700;
+	color:#334862;
+}
+.news-left-wrap{
+	border-right: 1px solid #ececec;
+}
+.news-left{
+	padding:15px;
+	background-color: rgba(221, 221, 221, 0.1);
+	border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.news-left-img{
+	width: 40px;
+	height: 40px;
+	margin-right:10px;
+}
+.news-left-list{
+	padding:10px 0;
+}
+.news-left-list a{
+	font-weight: bold !important;
+}
+.border-bot{
+	border-bottom: 1px dashed #ececec;
+}
+.news-btn input{
+	width: 80%;
+	height: 40px;
+	border-radius: 3px 0 0 3px ;
+	border: 1px solid #ddd;
+	padding-left:15px;
+}
+.news-btn button{
+	color: white;
+	border: 1px solid #ddd;
+	font-size:20px;
+	height: 40px;
+	padding:0 15px;
+	border-radius: 0 3px 3px 0;
+	background: #c49244;
+}
+.news-wrap{
+	background-color: #FFF;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	position: relative;
+	box-shadow: 0 1px 3px -2px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+.news-wrap img{
+	object-fit: cover;
+}
+.title-wrap{
+	padding:24px;
+}
+.desc{
+	font-size:16px;
+	margin-top:20px;
+	color:#353535;
+}
+.bot{
+	display:block;
+	background-color: rgba(0,0,0,0.1);
+	margin: 5px 0;
+    width: 100%;
+    max-width: 30px;
+    height: 3px;
+}
+.news{
+	padding:10px 5px 20px 15px;
+}
+.news-title-right{
+	margin-bottom: 1.5px;
+	font-weight: 700;
+	font-size:15px;
+}
+.news-desc{
+	margin-bottom: 1.5px;
+	font-size:14px;
+}
+.wrap-dates{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #c49244;
+	text-align: center;
+	line-height: 1.2;
+	padding-top:5px;
+	color:white;
+	position: absolute;
+	top:16%;
+	left:-10px;
+}
+.post-date-day{
+	font-weight: 700;
+	font-size:16px;
+}
+.post-date-month{
+	font-size:14px;
+}
+.btn-socialnetwork{
+	padding: 5px 15px;
+	color: white;
+    border-radius: 5px;
+}
+.btn-fb{
+	border: 0px solid #314b83;
+    background-color: #4769A5;
+}
+.btn-tw{
+    border: 0px solid #0092ba;
+    background-color: #65CCEF;
+}
+.btn-gg{
+    border: 0px solid #ab2b1d;
+    background-color: #EA4335;
+}
+.btn-pin{
+	border: 0px solid #ae1319;
+    background-color: #cd252b;
+}
+.btn-link{
+    border: 0px solid #278cc0;
+    background-color: #2ba3e1;
+}
+.btn-socialnetwork i{
+	padding-right:5px;
+	color: white;
+}
+.btn-socialnetwork-wrap{
+	flex-wrap: wrap;
+}
+.link-news{
+	padding: 20px 0;
+	border-top: 1px solid #ececec;
+}
+.link-news a{
+	font-size:16px !important;
+}
+.link-news a:hover{
+	color:#000 !important;
+}
+.link-news i{
+	color: #353535 !important;
+	font-size:30px;
+	padding:0 15px;
+}
+.prev{
+	align-items: center;
+}
+.form-rep{
+	padding: 25px 20px;
+	background-color: rgba(0,0,0,0.05);
+	margin-top:30px;
+}
+.rep{
+	font-size:19px;
+	font-weight: 600;
+	color:#1c1c1c;
+	margin-bottom: 10px;
+}
+.form-desc{
+	font-size:16px;
+	color: #353535;
+}
+#form textarea{
+	height: 120px;
+	border: 1px solid #ddd;
+	padding:15px;
+}
+label{
+	font-weight: 700;
+	font-size:14px;
+}
+#form input{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding:15px;
+	height: 40px;
+}
+#form input:focus,textarea:focus{
+	box-shadow: 0px 0px 20px 0px rgb(161 161 161);
+}
+.btn-form button{
+	width: 40%;
+	height: 40px;
+	font-weight: bold;
+	font-size:16px;
+	color: white;
+	background:#c49244;
+	border:none;
+	opacity: 0.8;
+}
+.btn-form button:hover{
+	opacity: 1;
+}
+.error,.error-email{
+	color: red;
+	display: block;
+	font-weight: 400;
+	font-size:13px;
+	padding-top:5px;
+	padding-left:10px;
+}
+/*REPON*/
+@media screen and (max-width: 571px){
+	h1{
+		font-size:32px;
+	}
+	.title-small{
+		display:block !important;
+	}
+	.title{
+		display:unset !important;
+	}
+	.desc{
+		text-align: justify;
+	}
+}

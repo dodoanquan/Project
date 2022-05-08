@@ -1,0 +1,543 @@
+/*BANNER*/
+.banner{
+	height: 600px;
+	position: relative;
+	top:0;
+}
+.banner img{
+	height: 600px;
+	object-fit: cover;
+}
+.text-box{
+	position: absolute;
+	top:20%;
+	right:0;
+	left:0;
+	width: 100%;
+	margin:0 auto;
+}
+.fa-star-o{
+	font-size:24px;
+	color:yellow;
+}
+.banner-desc{
+	color: #f1f1f1;
+	margin:16px auto;
+	font-size:16px;
+}
+.banner-button{
+	padding:8px 20px;
+	border: 2px solid white;
+	color: white;
+	font-weight: 700;
+	background: rgba(0, 0, 0, 0);
+	transition: ease-out 0.5s;
+}
+.banner-button:hover{
+	border: 2px solid #cdb654;
+	background: #cdb654;
+}
+.banner-button:hover >a{
+	color: #000;
+	text-decoration:none;
+}
+.overlay{
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+}
+.text-inner{
+	width: 65%;
+}
+/*BOOKING*/
+#booking{
+	padding:50px 0;
+	background-color:#000;
+}
+#booking input {
+	height: 40px;
+	padding:0 10px;
+	border: 1px solid #ced4da;
+}
+#booking label{
+	font-weight: 700;
+	font-size:15px;
+	margin-bottom: 5px;
+	color: white;
+	margin-top:15px;
+}
+.form-group{
+	margin-bottom:0px !important;
+}
+.btn-booking{
+	height: 40px;
+	margin-top:30px;
+	color: white;
+	background-color: #cdb654;
+	border: 2px solid white;
+	font-weight: 700;
+}
+.btn-booking:hover{
+	background: white;
+	color: #cdb654;
+}
+.form-control{
+	border-radius: 0;s
+}
+/*INTRODUCE*/
+#introduce{
+	padding:70px 0 80px 0;
+}
+.title{
+	align-items: center;
+	margin-bottom: 20px;
+}
+.intro > div{
+	margin-top:20px;
+}
+.title-small{
+	font-size:16px;
+    color: #c49244;
+    border-left: solid 2px #c49244;
+    margin-left: 10px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.desc-intro{
+	color: #777777;
+	font-size:16px;
+	text-align: justify;
+}
+/*ROOM*/
+#room{
+	padding: 70px 0 80px 0;
+	background: #000;
+}
+#room h2{
+	color: white;
+}
+.room{
+	background: white;
+	padding-bottom: 20px;
+	margin-top:20px;
+}
+.room-list{
+	margin:20px;
+}
+.room-title{
+	font-size:18px;
+	font-weight: bold;
+}
+.room-required{
+	margin-top: 10px;
+	font-size:15px;
+}
+.btn-cost{
+	padding:5px 17px;
+	font-weight: bold;
+	background:#c49244;
+	border-color: rgba(0,0,0,0.05);
+	margin-top:20px;
+	font-size:15px;
+}
+.btn-cost >a{
+	color: white;
+}
+.btn-cost:hover >a{
+	text-decoration: none;
+	color: black;
+}
+/*utilities*/
+#utilities{
+	padding:70px 0 65px 0;
+	background-color: rgb(247, 247, 247);
+}
+#utilities img:hover{
+	transform: rotateY(360deg);
+}
+#utilities img{
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	transition-duration: 2s;
+}
+.utilities-title{
+	margin-bottom:10px;
+	font-size:20px;
+	font-weight: bold;
+}
+.utilities-desc{
+	    color: #898989;
+	    font-size:16px;
+}
+/*restaurantmenu*/
+#restaurantmenu{
+	padding:80px 0;
+}
+.rest{
+	margin-top:20px;
+}
+.restaurantmenu-menu{
+	padding-top:16px;
+	display:none;
+	min-height: 500px;
+}
+.restaurantmenu-title button{
+	padding:5px 10px;
+	font-weight: 700;
+	color: #334862;
+	background: white;
+	border: 3px solid white;
+	border-radius: 32px;
+	font-size:12.5px;
+	margin-top:20px;
+}
+.restaurantmenu-title .active1{
+	color:#c49244;
+	background: white ;
+	border: 3px solid #c49244;
+}
+.restaurantmenu-title{
+	margin-bottom:20px;
+}
+.restaurantmenu-wrap{
+	padding: 5%;
+	border: dashed 2px #c49244;
+	box-shadow: 0px 0px 20px 0px rgb(161 161 161);
+}
+.food-name-egl{
+	font-family: 'Pattaya';
+	color: #c49244;
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size:24px;
+	margin-bottom: 5px;
+	align-items: center;
+}
+.food-name-vn{
+	font-family: 'Pattaya';
+	color: #000;
+	font-size:20px;
+	margin-bottom:20px;
+}
+.restaurantmenu-menu .fa-chevron-right{
+	font-size:16px;
+	margin-right:5px;
+	color: #c49244;
+}
+.show{
+	display:block;
+}
+/*BANNER2*/
+.banner2{
+	height: 550px;
+	position: relative;
+	top:0;
+	color: white;
+}
+.banner2 img{
+	height: 550px;
+	object-fit: cover;
+}
+.text-box2{
+	position: absolute;
+	top:25%;
+	right:0;
+	left:0;
+	width: 80%;
+	margin:0 auto;
+}
+.banner-2-hotel{
+	margin:16px 0;
+	font-size:16px;
+	font-weight: 650;
+}
+.banner-2-title{
+	margin:12px 0;
+	font-size:56px;
+	font-weight: 700;
+	font-family: 'Noto Serif'!important;
+}
+.banner-button2{
+	font-size:18.5px;
+	padding: 5px 22px;
+	border: 2px solid white;
+	color: white;
+	font-weight: 700;
+	background: rgba(0, 0, 0, 0);
+	transition: ease-out 0.5s;
+}
+.banner-button2:hover{
+	color: #000;
+	border: 2px solid #cdb654;
+	background: #cdb654;
+}
+/*COMMENT*/
+#comment{
+	padding:60px 0;
+	border-bottom: 1px solid #cdb654;
+}
+.comment-wrap{
+	color: white;
+	padding:65px 50px;
+	background: #4B494E;
+    border-radius: 20px;
+}
+.avatar img{
+	height:350px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+.names{
+	color: #fff;
+    font-size: 30px;
+    line-height: 28px;
+    margin: 0;
+    padding: 32px 0 25px;
+    font-weight: 600;
+}
+.avatar{
+	position: relative;
+}
+.cmt{
+	font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.quote-left{
+	font-size: 30px;
+    color: #cdb654;
+}
+#comment .owl-prev span{
+	position: absolute;
+    top: 40%;
+    left: -60px;
+    font-size: 40px;
+    border-radius: 50%;
+	width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+#comment .owl-next span{
+	position: absolute;
+    top: 40%;
+    right: -60px;
+    border-radius: 50%;
+	width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-size: 40px;
+}
+.people{
+	font-size: 30px;
+	border-radius: 50%;
+	width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #c49244;
+    margin-top:20px !important;
+}
+.people>i{
+	color: #fff;
+}
+.user{
+	font-size: 45px;
+	font-weight: 600;
+    line-height: 40px;
+   	color: #c49244;
+    padding: 20px 0;
+    font-family: 'Pattaya', sans-serif;
+}
+.cmt-user{
+	color: #000;
+    font-size: 20px;
+    padding-bottom:20px;
+}
+/*NEWS*/
+#news{
+	padding:60px 0;
+}
+.new{
+	margin-top:20px;
+}
+.news-wrap{
+	background-color: #fff;
+	padding-bottom: 20px;
+	box-shadow: 0 1px 3px -2px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+.news{
+	padding:10px 5px 20px 15px;
+}
+.news-wrap img{
+	object-fit: cover;
+	height: 220px;
+}
+.news-title{
+	font-weight: 700;
+	font-size:17px;
+	line-height: 1.3;
+	cursor: pointer;
+}
+.news-title:hover{
+	color: #c49244;
+}
+.bot{
+	display:block;
+	background-color: rgba(0,0,0,0.1);
+	margin: 5px 0;
+    width: 100%;
+    max-width: 40px;
+    height: 2px;
+}
+.news-desc{
+	color: #353535;
+	margin-bottom: 12px;
+}
+.news-btn{
+	padding: 3px 15px;
+	font-size:15px;
+	background-color: white;
+	border: 2px solid #cdb654;
+	font-weight: 700;
+}
+.news-btn a{
+	color: #cdb654;
+}
+.news-btn:hover{
+	background-color:#cdb654;}
+.news-btn:hover >a {
+	color: #000;
+	text-decoration: none;
+}
+figure{
+	overflow: hidden;
+}
+.news-wrap img{
+	transform: scale(1);
+	transition: 0.5s ease-in-out;
+}
+.news-wrap:hover img{
+	transform: scale(1.3);
+}
+/*BACKTOTOP*/
+#iconbacktotop{
+	background-color: white;
+	width:40px;
+	height: 40px;
+	display:none;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size:20px;
+	line-height: 40px;
+	position: fixed;
+	right:20px;
+	bottom:20px;
+	border: 2px solid currentColor;
+}
+#iconbacktotop:hover{
+	background:#cdb654;
+	border: 2px solid #cdb654;
+}
+#iconbacktotop:hover .fa-angle-up{
+	color: white !important;
+}
+.fa-angle-up{
+	color: black !important;
+}
+/*REPONSIVE*/
+@media screen and (max-width: 768px){
+	h1{
+		font-size:50px;
+	}
+	.fa-star-o{
+		font-size:18px;
+	}
+	.banner-2-title{
+		line-height: 1.2;
+		font-size:50px;
+	}
+	#comment .owl-prev span{
+		position: absolute;
+		top: 40%;
+		left: 20px;
+		font-size: 30px;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #333;
+		color: #fff;
+	}
+	#comment .owl-next span{
+		position: absolute;
+		top: 40%;
+		right: 20px;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #333;
+		color: #fff;
+	}
+}
+@media screen and (max-width: 571px){
+	h1{
+		font-size:32px;
+	}
+	.title-small{
+		display:block !important;
+	}
+	.title{
+		display:unset !important;
+	}
+	.text-inner{
+		width: 90%;
+	}
+	.banner-desc,
+	.utilities-desc{
+		font-size:14px;
+	}
+	.food-name-egl{
+		font-size:20px;
+		line-height: 1.2;
+	}
+	.restaurantmenu-menu{
+		min-height:470px;
+	}
+	.food-name-vn,
+	.utilities-title,
+	.fa-star-o{
+		font-size:18px;
+	}
+	.banner-2-title{
+		font-size:36px;
+	}
+	.banner-button2{
+		padding:5px 15px;
+	}
+	.banner2,.banner2 img{
+		height: 400px;
+	}
+	.banner, .banner img{
+		height: 500px;
+	}
+	.user{
+		font-size:30px;
+	}
+	.cmt-user{
+		font-size:14px;
+	}
+}

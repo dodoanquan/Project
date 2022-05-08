@@ -1,0 +1,97 @@
+/*BANNER*/
+.banner{
+	height: 300px;
+	position: relative;
+	top:0;
+	color: white;
+}
+#banner img{
+	height: 300px;
+	object-fit: cover;
+}
+.overlay{
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	z-index: 1;
+}
+.text-box{
+	position: absolute;
+	top:35%;
+	right:0;
+	left:0;
+	width: 100%;
+	z-index: 2;
+}
+.banner-title{
+	font-size:27px;
+	font-family: 'Pattaya';
+}
+.here{
+	font-size:17px;
+}
+.here b{
+	text-decoration:underline;
+}
+.here a{
+	font-size:17px;
+	color:white;
+}
+/*CONTENT*/
+#content{
+	padding:60px 0;
+}
+.title-small{
+	font-size:16px;
+    color: #c49244;
+    border-left: solid 2px #c49244;
+    margin-left: 10px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.title{
+	align-items: center;
+}
+.content-title{
+	font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.content-desc{
+	font-size:16px;
+	margin:0 auto 40px auto ;
+}
+.title-clb{
+	font-size:20px;
+	margin: 20px 0 10px 0;
+}
+.desc{
+	font-size:16px;
+	margin-bottom:20px;
+	color: #353535;
+}
+/*REPON*/
+@media screen and (max-width: 571px){
+	h1{
+		font-size:32px;
+	}
+	.title-small{
+		display:block !important;
+	}
+	.title{
+		display:unset !important;
+	}
+	.content-desc{
+		width: 100% !important;
+		text-align: justify;
+	}
+	.content-title{
+		font-size:35px;
+	}
+	.justify{
+		text-align: justify;
+	}
+}

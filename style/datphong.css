@@ -1,0 +1,291 @@
+#news a{
+	text-decoration:none;
+	cursor: pointer;
+	font-size:14px;
+	color:#444444;
+	line-height: 1.2;
+}
+#news a:hover{
+	text-decoration:none;
+	color:#c49244;
+}
+#news .fa{
+	color: white;
+}
+.banner{
+	height: 300px;
+	position: relative;
+	top:0;
+	color: white;
+}
+#banner img{
+	height: 300px;
+	object-fit: cover;
+}
+.overlay{
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	z-index: 1;
+}
+.text-box{
+	position: absolute;
+	top:35%;
+	right:0;
+	left:0;
+	width: 100%;
+	z-index: 2;
+}
+.banner-title{
+	font-size:27px;
+	font-family: 'Pattaya';
+}
+.here{
+	font-size:17px;
+}
+.here{
+	font-size:17px;
+}
+.here> b{
+	text-decoration:underline;
+}
+.here a{
+	font-size:17px;
+	color:white;
+}
+.title-small{
+	font-size:16px;
+	color: #c49244;
+	border-left: solid 2px #c49244;
+	margin-left: 10px;
+	padding: 0 10px;
+	font-weight: bold;
+}
+.title{
+	align-items: center;
+}
+.mgt-20{
+	margin-top:20px;
+}
+#room{
+	padding:60px 0;
+}
+.form{
+	padding:30px;
+	border: 10px solid #f2f2f2;
+	padding: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+label{
+	margin-bottom: 2px;
+	font-weight:bold;
+}
+#form label{
+	color:#c49244;
+	font-size:15px;
+}
+.input{
+	margin-bottom:15px;
+}
+.form-control{
+	height: 40px;
+}
+.input input{
+	height: 40px;
+	padding:10px;
+}
+.form-title{
+	font-size:20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.btn-form button{
+	margin-top: 10px;
+	width: 150px;
+	padding:8px 0;
+	border:1px solid #c49244;
+	background-color: #c49244;
+	color: white;
+	font-weight: 700;
+	box-shadow: inset 0 0 0 0 #c49244;
+	transition: ease-out 1s;
+}
+.btn-form:hover button{
+	box-shadow: inset 150px 0 0 0 white;
+	color: #c49244;
+}
+.room-btn{
+	padding:10px 15px;
+	font-size:12.5px;
+	font-weight: 700;
+	color: rgba(102,102,102,0.85);
+	border-top: 2px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background-color: rgba(0,0,0,0.04);
+}
+.desc{
+	font-size:16px;
+	margin-bottom:20px;
+}
+.border-bot{
+	border-bottom: 1px solid #ececec;
+	padding:8px 0;
+}
+.card-body{
+	padding: 2rem;
+}
+.evaluate{
+	font-size:18px;
+	margin-bottom: 10px;
+}
+.bd-l{
+	border-left: 1px solid #ececec;
+	padding:0 5px;
+}
+.star i{
+	font-size:16px;
+	color: #ddd;
+}
+.star:first-child i {
+	padding-right:5px;
+}
+.star:hover i{
+	color:#d26e4b;
+}
+.active-star{
+	color:#d26e4b !important;
+}
+.comment{
+	padding:15px 30px 30px 30px;
+	margin-top:30px;
+	border: 2px solid #c49244;
+	border-radius: 2px;
+}
+.comment-title{
+	font-size:18px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.comment-title-sub{
+	font-weight: bold;
+	margin-bottom:5px;
+}
+textarea{
+	height: 100px;
+	border: 1px solid #ddd;
+	box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+	padding:10px;
+}
+#form-comment label{
+	font-size:14.5;
+}
+#form-comment label:first-child{
+	margin-top:10px;
+}
+.input2{
+	margin-bottom:15px;
+}
+.input2 input{
+	height: 40px;
+	padding:10px;
+	border: 1px solid #ddd;
+	box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+}
+.btn-cmt button{
+	margin-left:10px;
+	margin-top: 10px;
+	width: 100px;
+	padding:8px 0;
+	border:1px solid #c49244;
+	background-color: #c49244;
+	color: white;
+	font-weight: 700;
+	box-shadow: inset 0 0 0 0 #c49244;
+	transition: ease-out 1s;
+}
+.btn-link{
+	color:#000;
+	font-weight: 700;
+	font-size:16px;
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+}
+.btn-link:hover{
+	color: #c49244;
+}
+.room-img-zoom img{
+	border-radius: 10px;
+}
+.card-header{
+	padding:5px 10px;
+}
+.accordion{
+	margin-top:30px;
+}
+.room-img{
+	border-radius: 10px;
+}
+.carousel-inner img {
+	width: 100%;
+	height:500px;
+	border-radius: 10px;
+	object-fit: cover;
+}
+#custCarousel .carousel-indicators {
+	position: static;
+	margin-top:20px;
+}
+#custCarousel .carousel-indicators > li {
+	width:100px;
+}
+.img-fluid{
+	width: 100%;
+	height: 70px;
+}
+#custCarousel .carousel-indicators li img {
+	display: block;
+	opacity: 0.5;
+}
+#custCarousel .carousel-indicators li.active img {
+	opacity: 1;
+}
+#custCarousel .carousel-indicators li:hover img {
+	opacity: 0.75;
+}
+.carousel-item img{
+	width:100%;
+}
+.carousel-control-prev-icon{
+	background: red;
+	color:black;
+	height: 40px;
+	width: 40px;
+}
+.cmt{
+	padding-top:50px;
+}
+.error{
+	font-size:14px;
+	font-weight: 400;
+	color: red;
+}
+/*REPON*/
+@media screen and (max-width: 571px){
+	h1{
+		font-size:32px;
+	}
+	.title-small{
+		display:block !important;
+	}
+	.title{
+		display:unset !important;
+	}
+	.desc{
+		text-align: justify;
+	}
+}
