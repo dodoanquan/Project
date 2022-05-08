@@ -209,20 +209,26 @@ textarea{
 	transition: ease-out 1s;
 }
 .btn-link{
-	color:#000;
+	color:white;
 	font-weight: 700;
 	font-size:16px;
 	font-family: "Roboto", sans-serif;
 	text-decoration: none;
 }
 .btn-link:hover{
+	color: white;
+	text-decoration: none;
+}
+.btn-link:focus{
 	color: #c49244;
+	text-decoration: none;
 }
 .room-img-zoom img{
 	border-radius: 10px;
 }
 .card-header{
 	padding:5px 10px;
+	background: #d69c2f;
 }
 .accordion{
 	margin-top:30px;
@@ -274,6 +280,48 @@ textarea{
 	font-weight: 400;
 	color: red;
 }
+.roomsub{
+	padding: 20px 0 60px 0
+}
+.roomsub-title{
+	padding-left:22px;
+	font-size:18px;
+	font-weight: bold;
+	margin-bottom:30px;
+}
+.roomsub-img{
+	position: relative;
+}
+.roomsub-img img{
+	border-top-left-radius: 20px;
+}
+.roomsub-item{
+	background: #FDFAEA;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.roomsub-name{
+	position: absolute;
+	background: #d69c2f;
+	bottom: 0;
+	right:0;
+	left:0;
+	text-align: center;
+	padding:5px 0;
+	font-size:15px;
+	color: white;
+	font-weight: bold;
+}
+.room-cost{
+	color: #B22222;
+}
+.roomsub-wrap{
+	font-size:14px;
+	color: #545454;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
 /*REPON*/
 @media screen and (max-width: 571px){
 	h1{

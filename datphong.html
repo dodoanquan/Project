@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 	<link rel="stylesheet" href="style/headerandfooter.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style/datphong.css">>
@@ -150,7 +152,7 @@
 										</button>
 									</h2>
 								</div>
-								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+								<div id="collapseOne" class="collapseshow" aria-labelledby="headingOne" data-parent="#accordionExample">
 									<div class="card-body">
 										<div class="desc">
 											PHÒNG TIÊU CHUẨN HẠNG C là loại phòng tiêu chuẩn nhất trong khách sạn. Do đó tiêu chuẩn về giá cả cũng như diện tích và các tiện ích trong phòng thuộc loại cơ bản nhất. Mỗi căn đều có phòng khách, phòng ngủ, phòng tắm và ban công rộng rãi với bàn trà đặt bên ngoài. Bạn sẽ tận hưởng sự thoải mái nhất.
@@ -273,11 +275,11 @@
 								<div class="row">
 									<div class="col-12 input">
 										<label>Ngày đến</label><br>
-										<input type="date"class="w-100">
+										<input type="date"class="w-100" required="">
 									</div>
 									<div class="col-12 input">
 										<label>Ngày đi</label><br>
-										<input type="date"class="w-100">
+										<input type="date"class="w-100" required="">
 									</div>
 									<div class="form-group col-12 input">
 										<label for="inputState">Số phòng thuê</label>
@@ -318,6 +320,76 @@
 								</div>
 							</form>
 						</div>
+					</div>
+				</div>
+				<div class="roomsub">
+					<div class="roomsub-title">CÁC PHÒNG LIÊN QUAN</div>
+					<div class="owl-carousel owl-theme owl-1">
+						<div class="roomsub-item">
+							<div class="roomsub-img">
+								<img src="imgs/room-lq1.jpg" class="w-100">
+								<div class="roomsub-name">PHÒNG HẠNG A</div>
+							</div>
+							<div class="pl-3 mt-3 roomsub-wrap">
+								<div>Giá: <span class="room-cost">100$ / ngày</span></div>
+								<div>
+									- Kích thước: 30m2 <br>
+									- Loại giường:  2 giường đơn<br>
+									- Buffet ăn sáng hàng ngày<br>
+									- Nước uống 2 chai free mỗi ngày<br>
+									- Phòng có cửa sổ
+								</div>
+							</div>
+						</div>
+						<div class="roomsub-item">
+							<div class="roomsub-img">
+								<img src="imgs/room-lq2.jpg" class="w-100">
+								<div class="roomsub-name">PHÒNG HẠNG B</div>
+							</div>
+							<div class="pl-3 mt-3 roomsub-wrap ">
+								<div>Giá: <span class="room-cost">90$ / ngày</span></div>
+								<div>
+									- Kích thước: 30m2 <br>
+									- Loại giường:  2 giường đơn<br>
+									- Buffet ăn sáng hàng ngày<br>
+									- Nước uống 2 chai free mỗi ngày<br>
+									- Phòng có cửa sổ
+								</div>
+							</div>
+						</div>
+						<div class="roomsub-item">
+							<div class="roomsub-img">
+								<img src="imgs/room-lq3.jpg" class="w-100">
+								<div class="roomsub-name">PHÒNG HẠNG C</div>
+							</div>
+							<div class="pl-3 mt-3 roomsub-wrap">
+								<div>Giá: <span class="room-cost">80$ / ngày</span></div>
+								<div>
+									- Kích thước: 30m2 <br>
+									- Loại giường:  2 giường đơn<br>
+									- Buffet ăn sáng hàng ngày<br>
+									- Nước uống 2 chai free mỗi ngày<br>
+									- Phòng có cửa sổ
+								</div>
+							</div>
+						</div>
+						<div class="roomsub-item">
+							<div class="roomsub-img">
+								<img src="imgs/room-lq4.jpg" class="w-100">
+								<div class="roomsub-name">PHÒNG HẠNG D</div>
+							</div>
+							<div class="pl-3 mt-3 roomsub-wrap">
+								<div>Giá: <span class="room-cost">70$ / ngày</span></div>
+								<div>
+									- Kích thước: 30m2 <br>
+									- Loại giường:  2 giường đơn<br>
+									- Buffet ăn sáng hàng ngày<br>
+									- Nước uống 2 chai free mỗi ngày<br>
+									- Phòng có cửa sổ
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
@@ -384,10 +456,10 @@
 	</footer>
 	<div id="iconbacktotop"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
 	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/backtotop.js"></script>
 	<script src="js/datphong.js"></script>
-
 </body>
 </html>
